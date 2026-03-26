@@ -1,0 +1,11 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" rx="120" fill="#F6FAFF"/>
+  <circle cx="400" cy="400" r="270" fill="#0D2C54"/>
+  <circle cx="400" cy="400" r="222" fill="white"/>
+  <circle cx="400" cy="400" r="150" fill="#F6C08B"/>
+  <path d="M400 276C356 276 320 312 320 356V372C320 414 344 452 382 470V518H418V470C456 452 480 414 480 372V356C480 312 444 276 400 276Z" fill="#7A331A"/>
+  <path d="M348 560H452" stroke="#0D2C54" stroke-width="26" stroke-linecap="round"/>
+  <path d="M322 610H478" stroke="#F47F20" stroke-width="26" stroke-linecap="round"/>
+  <text x="400" y="132" text-anchor="middle" fill="white" font-size="42" font-family="Arial, sans-serif" font-weight="700">SRI MAHALAKSHMI</text>
+  <text x="400" y="700" text-anchor="middle" fill="white" font-size="42" font-family="Arial, sans-serif" font-weight="700">ENTERPRISES</text>
+</svg>

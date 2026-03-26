@@ -1,0 +1,16 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#EEF5FF"/>
+  <rect x="90" y="120" width="1420" height="760" rx="48" fill="white"/>
+  <rect x="150" y="180" width="1300" height="180" rx="28" fill="#1756A9"/>
+  <rect x="150" y="390" width="580" height="400" rx="24" fill="#F7FAFF" stroke="#C9DCF7" stroke-width="8"/>
+  <rect x="770" y="390" width="620" height="400" rx="24" fill="#F7FAFF" stroke="#C9DCF7" stroke-width="8"/>
+  <rect x="210" y="450" width="460" height="40" rx="20" fill="#D8E7FB"/>
+  <rect x="210" y="520" width="380" height="30" rx="15" fill="#E8F1FE"/>
+  <rect x="210" y="575" width="430" height="30" rx="15" fill="#E8F1FE"/>
+  <rect x="210" y="630" width="320" height="30" rx="15" fill="#E8F1FE"/>
+  <rect x="830" y="455" width="140" height="260" rx="18" fill="#0D2C54"/>
+  <rect x="990" y="455" width="140" height="260" rx="18" fill="#1756A9"/>
+  <rect x="1150" y="455" width="140" height="260" rx="18" fill="#F47F20"/>
+  <text x="800" y="285" text-anchor="middle" fill="white" font-size="72" font-family="Arial, sans-serif" font-weight="700">STORE IMAGE PLACEHOLDER</text>
+  <text x="800" y="840" text-anchor="middle" fill="#5B7294" font-size="40" font-family="Arial, sans-serif" font-weight="600">Add store1.jpg and store2.jpg in /public for the real storefront photos</text>
+</svg>

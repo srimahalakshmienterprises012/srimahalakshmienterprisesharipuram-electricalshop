@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sri Mahalakshmi Enterprises</title>
+    <meta
+      name="description"
+      content="Sri Mahalakshmi Enterprises is a trusted hardware and construction materials store in Haripuram offering electrical, plumbing, hardware, paints, tanks, doors, and delivery services."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.63 2.64a2 2 0 0 1-.45 2.11L8 9.94a16 16 0 0 0 6.06 6.06l1.47-1.24a2 2 0 0 1 2.11-.45c.86.3 1.74.51 2.64.63A2 2 0 0 1 22 16.92z"></path>
+      </symbol>
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+        <path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.55 0 .23 5.32.23 11.84c0 2.09.54 4.13 1.58 5.94L0 24l6.42-1.68a11.8 11.8 0 0 0 5.64 1.43h.01c6.51 0 11.83-5.32 11.83-11.84 0-3.16-1.23-6.12-3.38-8.43Zm-8.46 18.26h-.01a9.83 9.83 0 0 1-5.01-1.37l-.36-.21-3.81 1 1.01-3.72-.23-.38a9.8 9.8 0 0 1-1.5-5.22c0-5.43 4.43-9.85 9.88-9.85 2.64 0 5.12 1.02 6.98 2.89a9.79 9.79 0 0 1 2.89 6.97c0 5.43-4.43 9.89-9.84 9.89Z"></path>
+      </symbol>
+      <symbol id="icon-map" viewBox="0 0 24 24">
+        <path d="M12 22s8-7.33 8-13a8 8 0 1 0-16 0c0 5.67 8 13 8 13Zm0-9.5A2.5 2.5 0 1 1 12 7a2.5 2.5 0 0 1 0 5.5Z"></path>
+      </symbol>
+      <symbol id="icon-quote" viewBox="0 0 24 24">
+        <path d="M21 15a2 2 0 0 1-2 2h-4v-4c0-1.66 1.34-3 3-3h1V7h-2a5 5 0 0 0-5 5v7h7a2 2 0 0 0 2-2v-2ZM10 15a2 2 0 0 1-2 2H4v-4c0-1.66 1.34-3 3-3h1V7H6a5 5 0 0 0-5 5v7h7a2 2 0 0 0 2-2v-2Z"></path>
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path d="M12 2 5 5v6c0 5 3.4 9.74 7 11 3.6-1.26 7-6 7-11V5l-7-3Zm0 5 3 1.2V11c0 2.22-1.28 4.7-3 5.88-1.72-1.18-3-3.66-3-5.88V8.2L12 7Z"></path>
+      </symbol>
+      <symbol id="icon-truck" viewBox="0 0 24 24">
+        <path d="M3 5h11v8h2.59L19 16.41V18h-1a3 3 0 1 1-6 0H9a3 3 0 1 1-6 0H2V7a2 2 0 0 1 1-2Zm14 1v5h3l-1.5-3H17Zm-11 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm9 0a1 1 0 1 0 .001 2.001A1 1 0 0 0 15 17Z"></path>
+      </symbol>
+      <symbol id="icon-tag" viewBox="0 0 24 24">
+        <path d="m20.59 13.41-7.18 7.18a2 2 0 0 1-2.82 0l-7.17-7.17A2 2 0 0 1 3 12V4a2 2 0 0 1 2-2h8c.53 0 1.04.21 1.41.59l7.18 7.18a2 2 0 0 1 0 2.82ZM7.5 7A1.5 1.5 0 1 0 7.5 4a1.5 1.5 0 0 0 0 3Z"></path>
+      </symbol>
+      <symbol id="icon-headset" viewBox="0 0 24 24">
+        <path d="M12 3a9 9 0 0 0-9 9v6a3 3 0 0 0 3 3h3v-8H5v-1a7 7 0 1 1 14 0v1h-4v8h3a3 3 0 0 0 3-3v-6a9 9 0 0 0-9-9Z"></path>
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24">
+        <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2.2A2.8 2.8 0 0 0 4.2 7v10A2.8 2.8 0 0 0 7 19.8h10a2.8 2.8 0 0 0 2.8-2.8V7A2.8 2.8 0 0 0 17 4.2H7Zm5 2.3A5.5 5.5 0 1 1 6.5 12 5.5 5.5 0 0 1 12 6.5Zm0 2.2A3.3 3.3 0 1 0 15.3 12 3.3 3.3 0 0 0 12 8.7Zm5.75-3.55a1.3 1.3 0 1 1-1.3 1.3 1.3 1.3 0 0 1 1.3-1.3Z"></path>
+      </symbol>
+      <symbol id="icon-facebook" viewBox="0 0 24 24">
+        <path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.87.25-1.46 1.5-1.46h1.7V5.02c-.3-.04-1.31-.12-2.5-.12-2.47 0-4.17 1.5-4.17 4.27V11H7.7v3h2.33v8h3.47Z"></path>
+      </symbol>
+      <symbol id="icon-youtube" viewBox="0 0 24 24">
+        <path d="M23.5 6.2a3 3 0 0 0-2.1-2.12C19.52 3.5 12 3.5 12 3.5s-7.52 0-9.4.58A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.12c1.88.58 9.4.58 9.4.58s7.52 0 9.4-.58a3 3 0 0 0 2.1-2.12A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z"></path>
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v.2l9 5.8 9-5.8V7H3Zm18 10V9.56l-8.46 5.44a1 1 0 0 1-1.08 0L3 9.56V17h18Z"></path>
+      </symbol>
+    </svg>
+    <header class="site-header">
+      <div class="container">
+        <div class="nav-shell">
+          <a class="brand" href="#hero">
+            <img src="./public/logo.jpg" alt="Sri Mahalakshmi Enterprises logo" />
+            <div class="brand-copy">
+              <strong>Sri Mahalakshmi Enterprises</strong>
+              <span>Delivering Dreams to You</span>
+            </div>
+          </a>
+          <nav class="desktop-nav">
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#brands">Brands</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a class="btn btn-secondary nav-call" href="tel:9885106475"><svg class="icon"><use href="#icon-phone"></use></svg>Call Store</a>
+          <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#brands">Brands</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn-primary" href="tel:9885106475"><svg class="icon"><use href="#icon-phone"></use></svg>Call Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section hero" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-card">
+            <img class="hero-bg" src="./public/store1.jpg" alt="Sri Mahalakshmi Enterprises storefront" />
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+              <p class="eyebrow dark">Trusted Local Hardware Destination</p>
+              <h1>Delivering Dreams to You</h1>
+              <p class="lead">
+                Your trusted store for Electrical, Plumbing, Hardware and Paints. Reliable branded products, project-ready stock, and delivery support from Haripuram.
+              </p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="tel:9885106475"><svg class="icon"><use href="#icon-phone"></use></svg>Call Now</a>
+                <a class="btn btn-ghost" href="https://wa.me/919885106475?text=Hello" target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-whatsapp"></use></svg>WhatsApp</a>
+                <a class="btn btn-secondary" href="https://wa.me/919885106475?text=Hello%20Sri%20Mahalakshmi%20Enterprises,%20I%20would%20like%20to%20request%20a%20quotation%20for%20my%20requirement." target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-quote"></use></svg>Get Quotation</a>
+                <a class="btn btn-outline-light" href="https://maps.app.goo.gl/srJNQ36xpVTxiZo59" target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-map"></use></svg>Find on Maps</a>
+              </div>
+              <div class="stat-grid">
+                <div class="stat-card">Authorized Berger Paints Distributor</div>
+                <div class="stat-card">Wholesale + Retail Supply</div>
+                <div class="stat-card">100% Genuine Branded Products</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-stack">
+            <div class="panel mesh">
+              <p class="section-kicker">Built for homes, shops, and sites</p>
+              <h2>Complete supply for construction and maintenance needs.</h2>
+              <p>
+                From premium switches and lighting to pipes, paints, tanks, locks, tools, and doors, the store is structured to help customers buy faster with dependable stock under one roof.
+              </p>
+              <a class="btn btn-accent" href="#products">Explore Products</a>
+            </div>
+            <div class="mini-grid">
+              <div class="mini-card">
+                <p class="section-kicker">Genuine Brands</p>
+                <strong>100%</strong>
+                <span>Certified, authentic branded products from leading electrical, paints, sanitary, and hardware suppliers.</span>
+              </div>
+              <div class="mini-card dark-card">
+                <p class="section-kicker">Delivery Support</p>
+                <strong>Fast &amp; Local</strong>
+                <span>Delivery available for nearby homes, contractors, and running project requirements.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div>
+            <div class="section-heading">
+              <p class="eyebrow">About The Store</p>
+              <h2>A reliable neighborhood business built around quality, variety, and service.</h2>
+              <p>Sri Mahalakshmi Enterprises serves homeowners, builders, contractors, and maintenance teams with a wide product mix that reduces sourcing time and improves buying confidence.</p>
+            </div>
+            <div class="about-list">
+              <div class="info-card">Family-run business focused on long-term trust and genuine guidance.</div>
+              <div class="info-card">Known locally for dependable stock across electrical, plumbing, hardware, and paints.</div>
+              <div class="info-card">Supports both retail shoppers and wholesale buyers with practical buying assistance.</div>
+              <div class="info-card">Berger Paints authorization adds confidence for quality-conscious customers.</div>
+            </div>
+            <div class="owner-box">
+              <p class="section-kicker accent">Owner Support</p>
+              <h3>Direct, practical help for project purchases.</h3>
+              <p>Owner-led support for bulk orders, project supply, and delivery coordination.</p>
+            </div>
+          </div>
+          <div class="card-grid three-cols" id="highlightsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="products">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Products</p>
+            <h2>Explore our most in-demand product categories.</h2>
+            <p>High-quality materials for electrical, plumbing, paints, and construction needs.</p>
+          </div>
+          <div class="card-grid products-grid" id="productsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Why Choose Us</p>
+            <h2>We are committed to providing the best quality products and practical service.</h2>
+            <p>Real local trust comes from authentic brands, dependable delivery, fair pricing, and people who can guide customers to the right purchase.</p>
+          </div>
+          <div class="card-grid four-cols" id="whyChooseGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="brands">
+        <div class="container">
+          <div class="brands-shell">
+            <div class="section-heading center">
+              <p class="eyebrow">Top Brands</p>
+              <h2>We are tied up with top brands. All products are 100% genuine and brand-certified.</h2>
+              <p>Premium electrical, sanitary, paints, and utility brands are available through a local store that customers already trust for authenticity and stock confidence.</p>
+            </div>
+            <div class="card-grid brand-grid" id="brandsGrid"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Visit Our Store</p>
+            <h2>Visit our well-organized store with a wide range of electrical, plumbing, and construction materials.</h2>
+            <p>Real storefront image, store information, and strong direction and WhatsApp actions for faster customer access.</p>
+          </div>
+
+          <div class="contact-top">
+            <div class="store-card">
+              <img src="./public/store1.jpg" alt="Sri Mahalakshmi Enterprises physical store" />
+            </div>
+            <div class="contact-copy">
+              <h3>Visit Our Physical Store</h3>
+              <p>Located at the heart of Haripuram, our store offers a comprehensive range of electrical, plumbing, and construction materials. We maintain a well-organized inventory to help you find exactly what you need.</p>
+              <div class="contact-info-box">
+                <h4>Store Information</h4>
+                <p><strong>Address:</strong> Dr. No-124, Baligam Junction, Opp. SBI Bank, NH5 Road, Haripuram, 532243</p>
+                <p><strong>GST No:</strong> 37BENPD0785H1ZB</p>
+                <p><strong>Phone:</strong> 9885106475 / 8341417373</p>
+                <p><strong>Email:</strong> srimahalakshmienterprises012@gmail.com</p>
+              </div>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="https://maps.app.goo.gl/srJNQ36xpVTxiZo59" target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-map"></use></svg>Get Directions</a>
+                <a class="btn btn-outline" href="https://wa.me/919885106475?text=Hello" target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-whatsapp"></use></svg>WhatsApp</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-bottom">
+            <div>
+              <div class="section-heading">
+                <p class="eyebrow">Contact</p>
+                <h2>Call, message, or request a quotation directly.</h2>
+                <p>Easy access for product availability, pricing, delivery coordination, and quotation support.</p>
+              </div>
+              <div class="contact-card">
+                <h4>Address</h4>
+                <p>Dr. No-124, Baligam Junction, Opp. SBI Bank, NH5 Road, Haripuram, 532243</p>
+              </div>
+              <div class="contact-duo">
+                <div class="contact-card">
+                  <h4>Call Us</h4>
+                  <p><a href="tel:9885106475">9885106475</a></p>
+                  <p><a href="tel:8341417373">8341417373</a></p>
+                </div>
+                <div class="contact-card">
+                  <h4>Email</h4>
+                  <p><a href="mailto:srimahalakshmienterprises012@gmail.com">srimahalakshmienterprises012@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="tel:9885106475"><svg class="icon"><use href="#icon-phone"></use></svg>Click to Call</a>
+                <a class="btn btn-accent" href="https://wa.me/919885106475?text=Hello" target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-whatsapp"></use></svg>WhatsApp</a>
+                <a class="btn btn-secondary" href="https://wa.me/919885106475?text=Hello%20Sri%20Mahalakshmi%20Enterprises,%20I%20would%20like%20to%20request%20a%20quotation%20for%20my%20requirement." target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-quote"></use></svg>Ask For Quotation</a>
+              </div>
+            </div>
+            <div class="contact-stack">
+              <div class="map-card">
+                <iframe title="Sri Mahalakshmi Enterprises location" src="https://www.google.com/maps?q=Sri%20Mahalakshmi%20Enterprises%20Haripuram&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="review-card">
+                <h3>Rate Our Store</h3>
+                <p>Loved our service? Share your experience on Google.</p>
+                <div class="stars">★★★★★</div>
+                <a class="btn btn-primary full" href="https://search.google.com/local/writereview?placeid=ChIJdzg3DQUHPToRkf8fyMTjUqA" target="_blank" rel="noreferrer">Write a Review</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-shell">
+            <div>
+              <p class="eyebrow dark">Expert Assistance</p>
+              <h2>Need Help Choosing the Right Brand?</h2>
+              <p>Our experts can help you select the perfect products from our trusted brand partners and send a direct quotation on WhatsApp.</p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn btn-light" href="https://wa.me/919885106475?text=Hello%20Sri%20Mahalakshmi%20Enterprises,%20I%20would%20like%20to%20request%20a%20quotation%20for%20my%20requirement." target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-whatsapp"></use></svg>WhatsApp Expert</a>
+              <a class="btn btn-glass" href="tel:9885106475"><svg class="icon"><use href="#icon-phone"></use></svg>Call: 9885106475</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#hero">
+            <img src="./public/logo.jpg" alt="Sri Mahalakshmi Enterprises logo" />
+            <div class="brand-copy footer-brand-copy">
+              <strong>Sri Mahalakshmi</strong>
+              <span>Enterprises</span>
+            </div>
+          </a>
+          <p class="footer-copy">Your trusted partner for premium paints, electrical solutions, plumbing items, hardware, and building materials.</p>
+          <div class="social-row">
+            <a class="social-icon" href="https://www.instagram.com/sri_mahalakshmi_enterprises" target="_blank" rel="noreferrer" aria-label="Instagram"><svg class="icon"><use href="#icon-instagram"></use></svg></a>
+            <a class="social-icon" href="https://wa.me/919885106475?text=Hello" target="_blank" rel="noreferrer" aria-label="WhatsApp"><svg class="icon"><use href="#icon-whatsapp"></use></svg></a>
+            <a class="social-icon" href="https://www.facebook.com/share/1GYhfeCW6B/?mibextid=wwXIfr" target="_blank" rel="noreferrer" aria-label="Facebook"><svg class="icon"><use href="#icon-facebook"></use></svg></a>
+            <a class="social-icon" href="https://youtube.com/@srimahalakshmienterprises-n3k?si=OU3Vwlen10hSszk1" target="_blank" rel="noreferrer" aria-label="YouTube"><svg class="icon"><use href="#icon-youtube"></use></svg></a>
+            <a class="social-icon" href="mailto:srimahalakshmienterprises012@gmail.com" aria-label="Email"><svg class="icon"><use href="#icon-mail"></use></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#brands">Our Brands</a>
+            <a href="#contact">Services</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <div class="footer-links">
+            <a class="footer-contact-link" href="https://maps.app.goo.gl/srJNQ36xpVTxiZo59" target="_blank" rel="noreferrer"><svg class="icon"><use href="#icon-map"></use></svg><span>Dr. No-124, Baligam Junction Opp. SBI Bank, NH5 Road Haripuram, 532243</span></a>
+            <a class="footer-contact-link" href="tel:9885106475"><svg class="icon"><use href="#icon-phone"></use></svg><span>9885106475</span></a>
+            <a class="footer-contact-link" href="tel:8341417373"><svg class="icon"><use href="#icon-phone"></use></svg><span>8341417373</span></a>
+            <a class="footer-contact-link" href="mailto:srimahalakshmienterprises012@gmail.com"><svg class="icon"><use href="#icon-mail"></use></svg><span>srimahalakshmienterprises012@gmail.com</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>&copy; <span id="year"></span> Sri Mahalakshmi Enterprises</span>
+        <span>All rights reserved</span>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/919885106475?text=Hello" target="_blank" rel="noreferrer">WhatsApp</a>
+    <script src="./script.js"></script>
+  </body>
+</html>
